@@ -1,0 +1,16 @@
+{
+    "name": "pontusab/fyndiq-php-sdk",
+    "description": "PHP SDK for Fyndiq integration",
+    "type": "library",
+    "keywords": [
+      "fyndiq",
+      "integration",
+      "sdk"
+    ],
+    "homepage": "https://github.com/pontusab/fyndiq-php-sdk",
+    "autoload": {
+        "psr-4": {
+            "Fyndiq\\": "src/Fyndiq/"
+        }
+    }
+}
