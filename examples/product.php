@@ -8,7 +8,7 @@ require 'vendor/autoload.php';
 use Fyndiq\Api as Api;
 
 // Initialize a new Session and instanciate an Api object
-Api::init('username', 'api_key');
+Api::init('username', 'api_key', true);
 
 $api = new Api\Fyndiq;
 
